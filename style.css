@@ -1,0 +1,35 @@
+body {
+  background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 500px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 20px;
+}
+.text {
+  width: 288px;
+}
+.text * {
+  text-align: center;
+  margin: 0;
+}
+.text h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+.text p {
+  color: #68778d;
+  font-size: 1.2rem;
+}
+img {
+  margin-bottom: 24px;
+}
